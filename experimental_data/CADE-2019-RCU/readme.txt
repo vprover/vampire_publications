@@ -14,6 +14,12 @@ The Vampire binary used in experiments 2 and 3 can be obtained at:
 
 http://www.cs.man.ac.uk/~regerg/files/Vampire_two-ho_schedules.zip
 
+The CASC-2018 versions of Leo-III and Satallax werer utilised in experiments. These can be obtained
+from the ATPSystems space of StarExec:
+
+https://www.starexec.org/starexec/secure/explore/spaces.jsp?id=23834
+
+If access is required, a request can be sent to Geoff Suttcliffe at geoff@cs.miami.edu
 
 -------- OBTAINING BENCHMARKS ---------
 1) TPTP benchmarks can be obtained from:
