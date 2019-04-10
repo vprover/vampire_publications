@@ -41,6 +41,8 @@ For experiment 2 and 3:
 
 ./vampire_z3_rel_static_HOL_branch_4026 <path_to_problem> --proof off --time_statistics on --schedule thf_2019 --mode portfolio --time_limit <value>
 
+Note: if running on StarExec, the scrips provided in the zip folders linked to above can be used. For experiment 2, the "1st_sched" configurationof the Vampire_two-ho_schedules prover should be utilised. For experiment 3, the "1st_sched" configuration requires a modifcation such that "drop_inappropriate" is not run. This can be achieved by removing "./drop-inappropriate $1" from the "1st_sched" script.
+
 ----------ALTERNATIVE------------------
 Alternatively, the authors can provide access to the solvers and TPTP benchmarks on StarExec system if requested.
 
