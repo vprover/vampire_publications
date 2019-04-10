@@ -44,6 +44,4 @@ For experiment 2 and 3:
 Note: if running on StarExec, the scrips provided in the zip folders linked to above can be used. For experiment 2, the "1st_sched" configurationof the Vampire_two-ho_schedules prover should be utilised. For experiment 3, the "1st_sched" configuration requires a modifcation such that "drop_inappropriate" is not run. This can be achieved by removing "./drop-inappropriate $1" from the "1st_sched" script.
 
 ----------ALTERNATIVE------------------
-Alternatively, the authors can provide access to the solvers and TPTP benchmarks on StarExec system if requested.
-
-To obtain access to the SH-\lambda benchmarks on StarExec, a request can be made to the Matryoshka team using the details given above.
+Alternatively, the authors can provide access to their space on StarExec which contains the relevant solvers and benchmarks if requested.
