@@ -10,10 +10,20 @@ The Vampire binary used in experiment 1 can be obtained at:
 
 http://www.cs.man.ac.uk/~regerg/files/vampire_ho_schedule.zip
 
+The corresponding tag in the Git repository is: cade2019exp1
+
 The Vampire binary used in experiments 2 and 3 can be obtained at:
 
 http://www.cs.man.ac.uk/~regerg/files/Vampire_two-ho_schedules.zip
 
+The corresponding tag in the Git repository is: cade2019exp2and3
+
+The CASC-2018 versions of Leo-III and Satallax were utilised in experiments. These can be obtained
+from the ATPSystems space of StarExec:
+
+https://www.starexec.org/starexec/secure/explore/spaces.jsp?id=23834
+
+If access is required, a request can be sent to Geoff Suttcliffe at geoff@cs.miami.edu
 
 -------- OBTAINING BENCHMARKS ---------
 1) TPTP benchmarks can be obtained from:
@@ -31,7 +41,9 @@ For experiment 2 and 3:
 
 ./vampire_z3_rel_static_HOL_branch_4026 <path_to_problem> --proof off --time_statistics on --schedule thf_2019 --mode portfolio --time_limit <value>
 
-----------ALTERNATIVE------------------
-Alternatively, the authors can provide access to the solvers and TPTP benchmarks on StarExec system if requested.
+Note: if running on StarExec, the configuration scripts provided in the zip folders linked to above can be used.
+Configuration for experiment 2: 1st_sched 
+Configuration for experiment 3: 1st_sched_without_drop_inapprop
 
-To obtain access to the SH-\lambda benchmarks on StarExec, a request can be made to the Matryoshka team using the details given above.
+----------ALTERNATIVE------------------
+Alternatively, the authors can provide access to their space on StarExec which contains the relevant solvers and benchmarks if requested.
