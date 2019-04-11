@@ -18,7 +18,7 @@ http://www.cs.man.ac.uk/~regerg/files/Vampire_two-ho_schedules.zip
 
 The corresponding tag in the Git repository is: cade2019exp2and3
 
-The CASC-2018 versions of Leo-III and Satallax werer utilised in experiments. These can be obtained
+The CASC-2018 versions of Leo-III and Satallax were utilised in experiments. These can be obtained
 from the ATPSystems space of StarExec:
 
 https://www.starexec.org/starexec/secure/explore/spaces.jsp?id=23834
@@ -41,7 +41,9 @@ For experiment 2 and 3:
 
 ./vampire_z3_rel_static_HOL_branch_4026 <path_to_problem> --proof off --time_statistics on --schedule thf_2019 --mode portfolio --time_limit <value>
 
-Note: if running on StarExec, the scrips provided in the zip folders linked to above can be used. For experiment 2, the "1st_sched" configurationof the Vampire_two-ho_schedules prover should be utilised. For experiment 3, the "1st_sched" configuration requires a modifcation such that "drop_inappropriate" is not run. This can be achieved by removing "./drop-inappropriate $1" from the "1st_sched" script.
+Note: if running on StarExec, the configuration scripts provided in the zip folders linked to above can be used.
+Configuration for experiment 2: 1st_sched 
+Configuration for experiment 3: 1st_sched_without_drop_inapprop
 
 ----------ALTERNATIVE------------------
 Alternatively, the authors can provide access to their space on StarExec which contains the relevant solvers and benchmarks if requested.
