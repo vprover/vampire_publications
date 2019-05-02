@@ -10,13 +10,13 @@ The Vampire binary used in experiment 1 can be obtained at:
 
 http://www.cs.man.ac.uk/~regerg/files/vampire_ho_schedule.zip
 
-The corresponding tag in the Git repository is: cade2019exp1
+
 
 The Vampire binary used in experiments 2 and 3 can be obtained at:
 
 http://www.cs.man.ac.uk/~regerg/files/Vampire_two-ho_schedules.zip
 
-The corresponding tag in the Git repository is: cade2019exp2and3
+
 
 The CASC-2018 versions of Leo-III and Satallax were utilised in experiments. These can be obtained
 from the ATPSystems space of StarExec:
