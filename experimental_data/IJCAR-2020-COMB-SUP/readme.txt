@@ -1,11 +1,13 @@
 ------------- CONTENTS ----------------
-The .csv files containing the raw output of all experiments.
+
+This repository contains the .csv files containing the raw output of all experiments.
 The experiments were run over two sets of benchmarks:
 a) TPTP benchmarks
 b) Sledgehammer benchmarks
 The names of the .csv files link them directly to the benchmarks described in the paper.
 
 ---------- OBTAINING Solvers ----------
+
 The Vampire binary used in the experiment can be obtained at:
 
 http://www.cs.man.ac.uk/~regerg/files/vampire_ho_schedule.zip
@@ -19,6 +21,7 @@ https://starexec.ccs.miami.edu/starexec/secure/explore/spaces.jsp?id=550
 If access is required, a request can be sent to Geoff Suttcliffe at geoff@cs.miami.edu
 
 -------- OBTAINING BENCHMARKS ---------
+
 1) TPTP benchmarks can be obtained from:
 
    http://www.tptp.org/
@@ -31,5 +34,6 @@ If access is required, a request can be sent to Geoff Suttcliffe at geoff@cs.mia
 TO BE COMPLETED
 
 ----------ALTERNATIVE------------------
+
 Alternatively, the authors can provide access to their space on StarExec which contains the relevant 
 solvers and benchmarks if requested.
