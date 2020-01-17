@@ -6,7 +6,7 @@ a) TPTP benchmarks
 b) Sledgehammer benchmarks
 The names of the .csv files link them directly to the benchmarks described in the paper.
 
----------- OBTAINING Solvers ----------
+---------- OBTAINING SOLVERS ----------
 
 The Vampire binary used in the experiment can be obtained at:
 
