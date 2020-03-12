@@ -10,7 +10,7 @@ The names of the .csv files link them directly to the benchmarks described in th
 
 The Vampire binary used in the experiment can be obtained at:
 
-http://www.cs.man.ac.uk/~regerg/files/vampire_ho_schedule.zip
+PLACEHOLDER
 
 The CASC-2019 versions of Leo-III 1.4, Satallax 3.4, Vampire-THF 4.4 and Zipperosition 1.5  
 were utilised in experiments. These can be obtained from the ATPSystems space of 
