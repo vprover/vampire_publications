@@ -1,32 +1,33 @@
-0 -ev polynomial -gve off -asg off -pum off -canc off
-1 -ev polynomial -gve off -asg off -pum off -canc on
-2 -ev polynomial -gve off -asg off -pum on -canc off
-3 -ev polynomial -gve off -asg off -pum on -canc on
-4 -ev polynomial -gve off -asg on -pum off -canc off
-5 -ev polynomial -gve off -asg on -pum off -canc on
-6 -ev polynomial -gve off -asg on -pum on -canc off
-7 -ev polynomial -gve off -asg on -pum on -canc on
-8 -ev polynomial -gve on -asg off -pum off -canc off
-9 -ev polynomial -gve on -asg off -pum off -canc on
-10 -ev polynomial -gve on -asg off -pum on -canc off
-11 -ev polynomial -gve on -asg off -pum on -canc on
-12 -ev polynomial -gve on -asg on -pum off -canc off
-13 -ev polynomial -gve on -asg on -pum off -canc on
-14 -ev polynomial -gve on -asg on -pum on -canc off
-15 -ev polynomial -gve on -asg on -pum on -canc on
-16 -ev simple -gve off -asg off -pum off -canc off
-17 -ev simple -gve off -asg off -pum off -canc on
-18 -ev simple -gve off -asg off -pum on -canc off
-19 -ev simple -gve off -asg off -pum on -canc on
-20 -ev simple -gve off -asg on -pum off -canc off
-21 -ev simple -gve off -asg on -pum off -canc on
-22 -ev simple -gve off -asg on -pum on -canc off
-23 -ev simple -gve off -asg on -pum on -canc on
-24 -ev simple -gve on -asg off -pum off -canc off
-25 -ev simple -gve on -asg off -pum off -canc on
-26 -ev simple -gve on -asg off -pum on -canc off
-27 -ev simple -gve on -asg off -pum on -canc on
-28 -ev simple -gve on -asg on -pum off -canc off
-29 -ev simple -gve on -asg on -pum off -canc on
-30 -ev simple -gve on -asg on -pum on -canc off
-31 -ev simple -gve on -asg on -pum on -canc on
+id	command
+0	<vampire> -ev polynomial -gve off -asg off -pum off -canc off --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+1	<vampire> -ev polynomial -gve off -asg off -pum off -canc on --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+2	<vampire> -ev polynomial -gve off -asg off -pum on -canc off --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+3	<vampire> -ev polynomial -gve off -asg off -pum on -canc on --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+4	<vampire> -ev polynomial -gve off -asg on -pum off -canc off --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+5	<vampire> -ev polynomial -gve off -asg on -pum off -canc on --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+6	<vampire> -ev polynomial -gve off -asg on -pum on -canc off --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+7	<vampire> -ev polynomial -gve off -asg on -pum on -canc on --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+8	<vampire> -ev polynomial -gve on -asg off -pum off -canc off --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+9	<vampire> -ev polynomial -gve on -asg off -pum off -canc on --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+10	<vampire> -ev polynomial -gve on -asg off -pum on -canc off --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+11	<vampire> -ev polynomial -gve on -asg off -pum on -canc on --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+12	<vampire> -ev polynomial -gve on -asg on -pum off -canc off --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+13	<vampire> -ev polynomial -gve on -asg on -pum off -canc on --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+14	<vampire> -ev polynomial -gve on -asg on -pum on -canc off --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+15	<vampire> -ev polynomial -gve on -asg on -pum on -canc on --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+16	<vampire> -ev simple -gve off -asg off -pum off -canc off --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+17	<vampire> -ev simple -gve off -asg off -pum off -canc on --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+18	<vampire> -ev simple -gve off -asg off -pum on -canc off --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+19	<vampire> -ev simple -gve off -asg off -pum on -canc on --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+20	<vampire> -ev simple -gve off -asg on -pum off -canc off --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+21	<vampire> -ev simple -gve off -asg on -pum off -canc on --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+22	<vampire> -ev simple -gve off -asg on -pum on -canc off --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+23	<vampire> -ev simple -gve off -asg on -pum on -canc on --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+24	<vampire> -ev simple -gve on -asg off -pum off -canc off --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+25	<vampire> -ev simple -gve on -asg off -pum off -canc on --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+26	<vampire> -ev simple -gve on -asg off -pum on -canc off --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+27	<vampire> -ev simple -gve on -asg off -pum on -canc on --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+28	<vampire> -ev simple -gve on -asg on -pum off -canc off --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+29	<vampire> -ev simple -gve on -asg on -pum off -canc on --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+30	<vampire> -ev simple -gve on -asg on -pum on -canc off --time_limit 10 --input_syntax smtlib2 <benchmark-file>
+31 	vampire> -ev simple -gve on -asg on -pum on -canc on --time_limit 10 --input_syntax smtlib2 <benchmark-file>
