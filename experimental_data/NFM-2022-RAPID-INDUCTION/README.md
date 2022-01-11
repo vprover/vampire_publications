@@ -50,3 +50,4 @@ https://github.com/vprover/vampire_publications/tree/master/experimental_data/NF
 * Add path to boost library: `export LD_LIBRARY_PATH=[path to VAJRA/Diffy bin directory]:$LD_LIBRARY_PATH`
 * Run VAJRA with: `bin/vajra [file name]` resp. Diffy with: `diffy/bin/diffy [file name]`
 
+SeaHorn takes *.cpp files as input, whilst Vajra/Diffy uses preprocessed *.i files.
