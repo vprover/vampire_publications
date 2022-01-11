@@ -37,4 +37,4 @@ https://github.com/vprover/vampire_publications/tree/master/experimental_data/NF
 
 ## Run Vampire
 
-`./vampire -dir [output directory name] [.spec file name]`
+`./vampire --mode portfolio --schedule rapid_induction [.smt2 file name]`
