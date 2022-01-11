@@ -38,3 +38,15 @@ https://github.com/vprover/vampire_publications/tree/master/experimental_data/NF
 ## Run Vampire
 
 `./vampire --mode portfolio --schedule rapid_induction [.smt2 file name]`
+
+## Run SeaHorn
+* Download SeaHorn (http://seahorn.github.io/) as a docker image: `docker pull seahorn/seahorn` + create & start container
+* Copy the file to the docker container: `docker cp [file name] SeaHorn:/opt/seahorn/[file name]`
+* Open console: `docker exec -u 0 -it SeaHorn bash`
+* Run SeaHorn on file (inside of docker): `./bin/sea pf [file name]`
+
+## Run VAJRA/Diffy
+* Download VAJRA (https://github.com/divyeshunadkat/VAJRA) / Diffy (https://github.com/divyeshunadkat/diffy-artifact)
+* Add path to boost library: `export LD_LIBRARY_PATH=[path to VAJRA/Diffy bin directory]:$LD_LIBRARY_PATH`
+* Run VAJRA with: `bin/vajra [file name]` resp. Diffy with: `diffy/bin/diffy [file name]`
+
